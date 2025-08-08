@@ -65,15 +65,15 @@ export default class PortfolioContainer extends Component {
         <div className="filter-links">
           <button
             className="btn"
-            onClick={() => this.handleFilter("PoliticasPublicas")}
+            onClick={() => this.handleFilter("Políticas Públicas")}
           >
-            Politicas Publicas
+            Políticas Públicas
           </button>
           <button
             className="btn"
-            onClick={() => this.handleFilter("CooperacionInternacional")}
+            onClick={() => this.handleFilter("Cooperación Internacional")}
           >
-            Cooperacion Internacional
+            Cooperación Internacional
           </button>
           
           <button

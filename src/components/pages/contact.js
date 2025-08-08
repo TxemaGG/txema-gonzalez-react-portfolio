@@ -36,7 +36,7 @@ export default function() {
               <FontAwesomeIcon icon="map-marked-alt" />
             </div>
 
-            <div className="text">Bilbao, BC</div>
+            <div className="text">Bilbao, Basque Country</div>
           </div>
         </div>
       </div>

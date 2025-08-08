@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import axios from "axios";
 import DropzoneComponent from "react-dropzone-component";
 
-import "../../../node_modules/react-dropzone-component/styles/filepicker.css";
-import "../../../node_modules/dropzone/dist/min/dropzone.min.css";
-
 export default class PortfolioForm extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +9,7 @@ export default class PortfolioForm extends Component {
     this.state = {
       name: "",
       description: "",
-      category: "PoliticasPublicas",
+      category: "Políticas Públicas",
       position: "",
       url: "",
       thumb_image: "",
@@ -74,7 +71,7 @@ export default class PortfolioForm extends Component {
         id: id,
         name: name || "",
         description: description || "",
-        category: category || "PoliticasPublicas",
+        category: category || "Políticas Públicas",
         position: position || "",
         url: url || "",
         editMode: true,
@@ -167,7 +164,7 @@ export default class PortfolioForm extends Component {
         this.setState({
           name: "",
           description: "",
-          category: "PoliticasPublicas",
+          category: "Políticas Públicas",
           position: "",
           url: "",
           thumb_image: "",
@@ -225,9 +222,8 @@ export default class PortfolioForm extends Component {
             onChange={this.handleChange}
             className="select-element"
           >
-            <option value="PoliticasPublicas">Políticas Publicas</option>
-            <option value="Scheduling">Scheduling</option>
-            <option value="CooperacionInternacional">Cooperacion Internacional</option>
+            <option value="Políticas Públicas">Políticas Públicas</option>
+            <option value="Cooperacion Internacional">Cooperación Internacional</option>
           </select>
         </div>
 
